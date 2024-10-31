@@ -36,7 +36,7 @@ for i in $(seq 0 127); do
             echo "$ip is reachable with response time ${response} ms"
 
             # to be implemented - port scanning functionality
-            
+
             #ip="192.168.1.10" 
             #for port in 22 80 443; do
             #    nc -zv -w 1 "$ip" $port &> /dev/null && echo -e "\e[32mPort $port is open on $ip\e[0m" || echo "Port $port is closed on $ip"
@@ -57,6 +57,7 @@ for i in $(seq 0 127); do
 
 done
 
+#for next time - reverseDNS, APIs, traceroutes, and more (consider functions, etc.)
 
 # End the timer and calculate elapsed time
 end_time=$(date +%s)
