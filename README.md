@@ -1,5 +1,7 @@
 IP Network Scanner
 
+![Project Banner](example.png)
+
 A simple IP network scanner built in C++ to identify active hosts within a specified range on a local network. It leverages socket programming and ICMP or TCP requests to detect active IP addresses.
 
 Features
